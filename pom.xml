@@ -67,22 +67,10 @@
             <artifactId>magnolia-empty-webapp</artifactId>
             <type>war</type>
         </dependency>
-        <dependency>
-            <groupId>info.magnolia</groupId>
-            <artifactId>magnolia-empty-webapp</artifactId>
-            <type>pom</type>
-            <scope>import</scope>
-        </dependency>
     </dependencies>
 
     <dependencyManagement>
         <dependencies>
-            <dependency>
-                <groupId>info.magnolia</groupId>
-                <artifactId>magnolia-empty-webapp</artifactId>
-                <version>${version.magnolia}</version>
-                <type>pom</type>
-            </dependency>
             <dependency>
                 <groupId>info.magnolia</groupId>
                 <artifactId>magnolia-empty-webapp</artifactId>
