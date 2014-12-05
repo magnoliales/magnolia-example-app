@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE module SYSTEM "module.dtd">
+<module>
+    <name>comments-app</name>
+    <displayName>Magnolia Comments App</displayName>
+    <description>Commenting app to demonstrate development of custom apps with Magnolia CMS</description>
+    <version>1.0.0</version>
+    <components>
+        <id>example-app-browser</id>
+        <component>
+            <type>com.magnoliales.commentsapp.browser.CommentsBrowserSubAppView</type>
+            <implementation>com.magnoliales.commentsapp.browser.CommentsBrowserSubAppView</implementation>
+        </component>
+    </components>
+    <dependencies>
+        <dependency>
+            <name>ui-admincentral</name>
+        </dependency>
+    </dependencies>
+</module>

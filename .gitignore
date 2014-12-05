@@ -1,5 +1,5 @@
+keypair.properties
+*.log
 *.iml
-derby.log
 .idea/
 .runtime/
-keypair.properties
