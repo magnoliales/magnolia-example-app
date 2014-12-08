@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE module SYSTEM "module.dtd">
 <module>
-    <name>comments-app</name>
+    <name>comments</name>
     <displayName>Magnolia Comments App</displayName>
     <description>Commenting app to demonstrate development of custom apps with Magnolia CMS</description>
     <version>1.0.0</version>
     <components>
-        <id>example-app-browser</id>
+        <id>app-comments-browser</id>
         <component>
             <type>com.magnoliales.commentsapp.browser.CommentsBrowserSubAppView</type>
             <implementation>com.magnoliales.commentsapp.browser.CommentsBrowserSubAppView</implementation>
+            <scope>singleton</scope>
         </component>
     </components>
     <dependencies>

@@ -21,7 +21,7 @@
   <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
     <sv:value>superuser</sv:value>
   </sv:property>
-  <sv:node sv:name="comments-app">
+  <sv:node sv:name="comments">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>mgnl:contentNode</sv:value>
     </sv:property>
@@ -30,6 +30,9 @@
     </sv:property>
     <sv:property sv:name="appClass" sv:type="String">
       <sv:value>com.magnoliales.commentsapp.CommentsApp</sv:value>
+    </sv:property>
+    <sv:property sv:name="class" sv:type="String">
+      <sv:value>info.magnolia.ui.api.app.registry.ConfiguredAppDescriptor</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:createdBy" sv:type="String">
       <sv:value>admin</sv:value>
@@ -41,7 +44,7 @@
       <sv:value>superuser</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-      <sv:value>2014-12-05T15:45:30.548Z</sv:value>
+      <sv:value>2014-12-08T10:07:44.444Z</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
       <sv:value>superuser</sv:value>
@@ -75,6 +78,9 @@
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>7d0db07e-ebf6-448a-b984-206892779aff</sv:value>
         </sv:property>
+        <sv:property sv:name="class" sv:type="String">
+          <sv:value>info.magnolia.ui.api.app.registry.ConfiguredSubAppDescriptor</sv:value>
+        </sv:property>
         <sv:property sv:name="jcr:createdBy" sv:type="String">
           <sv:value>admin</sv:value>
         </sv:property>
@@ -85,7 +91,7 @@
           <sv:value>superuser</sv:value>
         </sv:property>
         <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-          <sv:value>2014-12-08T09:36:57.869Z</sv:value>
+          <sv:value>2014-12-08T10:08:28.723Z</sv:value>
         </sv:property>
         <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
           <sv:value>superuser</sv:value>

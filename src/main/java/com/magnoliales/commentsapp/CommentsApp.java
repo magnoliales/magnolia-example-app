@@ -14,4 +14,6 @@ public class CommentsApp extends BaseApp {
     public CommentsApp(AppContext appContext, AppView view) {
         super(appContext, view);
     }
+
+
 }
