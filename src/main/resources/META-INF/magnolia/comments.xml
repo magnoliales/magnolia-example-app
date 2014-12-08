@@ -9,7 +9,7 @@
         <id>app-comments-browser</id>
         <component>
             <type>com.magnoliales.commentsapp.browser.CommentsBrowserSubAppView</type>
-            <implementation>com.magnoliales.commentsapp.browser.CommentsBrowserSubAppView</implementation>
+            <implementation>com.magnoliales.commentsapp.browser.CommentsBrowserSubAppViewImpl</implementation>
             <scope>singleton</scope>
         </component>
     </components>

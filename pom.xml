@@ -71,6 +71,10 @@
             <groupId>info.magnolia.ui</groupId>
             <artifactId>magnolia-ui-framework</artifactId>
         </dependency>
+        <dependency>
+            <groupId>info.magnolia.ui</groupId>
+            <artifactId>magnolia-ui-contentapp</artifactId>
+        </dependency>
     </dependencies>
 
     <dependencyManagement>
@@ -84,6 +88,12 @@
             <dependency>
                 <groupId>info.magnolia.ui</groupId>
                 <artifactId>magnolia-ui-framework</artifactId>
+                <version>${version.magnolia}</version>
+                <scope>compile</scope>
+            </dependency>
+            <dependency>
+                <groupId>info.magnolia.ui</groupId>
+                <artifactId>magnolia-ui-contentapp</artifactId>
                 <version>${version.magnolia}</version>
                 <scope>compile</scope>
             </dependency>

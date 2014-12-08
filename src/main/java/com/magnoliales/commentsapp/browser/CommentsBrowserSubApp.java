@@ -5,10 +5,11 @@ import info.magnolia.ui.framework.app.BaseSubApp;
 
 import javax.inject.Inject;
 
-public class CommentsBrowserSubApp extends BaseSubApp<CommentsBrowserSubAppView> {
+public class
+        CommentsBrowserSubApp extends BaseSubApp<CommentsBrowserSubAppView> {
 
     @Inject
-    protected CommentsBrowserSubApp(SubAppContext subAppContext, CommentsBrowserSubAppView view) {
+    protected CommentsBrowserSubApp(SubAppContext subAppContext, CommentsBrowserSubAppViewImpl view) {
         super(subAppContext, view);
     }
 }
